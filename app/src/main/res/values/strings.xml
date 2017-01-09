@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NoteDemo</string>
+    <string name="note">笔记</string>
+    <string name="returnButton">返回</string>
+    <string name="save">保存</string>
+
+</resources>

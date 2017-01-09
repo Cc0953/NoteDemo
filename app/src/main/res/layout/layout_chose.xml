@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/returnButton"
+            android:text="@string/returnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="@string/save"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_below="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/titleEditTest"
+            android:hint="请输入标题"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="请输入正文"
+            android:gravity="top"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/titleEditTest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </EditText>
+
+    </RelativeLayout>
+
+</RelativeLayout>
