@@ -15,6 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <Button
+            android:id="@+id/saveButton"
             android:text="@string/save"
             android:layout_alignParentEnd="true"
             android:layout_width="wrap_content"
@@ -28,12 +29,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <EditText
+            android:maxLines="1"
+            android:gravity="center"
             android:layout_margin="5dp"
             android:id="@+id/titleEditTest"
             android:hint="请输入标题"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <EditText
+            android:id="@+id/contentEditTest"
             android:hint="请输入正文"
             android:gravity="top"
             android:layout_margin="5dp"

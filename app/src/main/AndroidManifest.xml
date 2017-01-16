@@ -18,6 +18,9 @@
         <activity android:name=".View.Activity_Chose">
 
         </activity>
+        <activity android:name=".View.Activity_show">
+
+        </activity>
     </application>
 
 </manifest>
